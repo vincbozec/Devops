@@ -2,6 +2,10 @@
 
 Ce dépôt contient les fichiers nécessaires pour mettre en place une infrastructure Devops.
 
+## Introduction 
+
+Ce projet vise à moderniser l'application monolithique de Dock In Space en utilisant des technologies de conteneurisation. Il utilise Docker et Docker Compose pour gérer une application Flask, avec Prometheus pour le logging et Grafana pour la visualisation des données. L'objectif est de créer un prototype démontrant une architecture basée sur des microservices, améliorant ainsi la maintenance, la scalabilité, et la surveillance de l'application.
+
 ## Instructions d'utilisation
 
 Pour commencer à utiliser ce projet, suivez les étapes ci-dessous :
