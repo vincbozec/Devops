@@ -8,7 +8,7 @@ metrics = PrometheusMetrics(app)
 
 @app.route('/')
 def home():
-    return "Bienvenu sur mon site web realise avec FLASK"
+    return "Bienvenue sur mon site web realise avec FLASK"
 
 
 if __name__ == "__main__":

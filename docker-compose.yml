@@ -13,8 +13,6 @@ services:
     image: prom/prometheus:v2.26.0
     volumes:
       - ./prometheus.yml:/etc/prometheus/prometheus.yml
-    networks:
-      - my-network
     ports:
       - "9090:9090"
     restart: always
@@ -23,11 +21,6 @@ services:
     image: grafana/grafana:7.5.2
     volumes:
       - ./datasource.yml:/etc/grafana/provisioning/datasources/datasource.yml
-    networks:
-      - my-network
     ports:
       - "3000:3000"
     restart: always
-
-networks:
-  my-network:
